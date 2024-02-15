@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <script src="https://kit.fontawesome.com/1196d31579.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: url(images/crowdbg.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5); /* Translucent white background */
+            padding: 20px;
+            border-radius: 10px;
+            font-family:"Playfair Display", serif;
+        }
+        h1, h3 {
+            margin: 0;
+            padding: 10px;
+        }
+        h1{
+            font-size: 50px;
+            color: rgb(7, 104, 104);
+        }
+        h3{
+            font-size: 20px;
+            font-weight: 200;
+        }
+        form {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .btn {
+            background-color: #05175f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h1>SonicSpectrum</h1>
+                <h3>Get ready to witness a whole new world</h3>
+                <form>
+                    <input type="text" name="email" placeholder="Email/Username">
+                    <br>
+                    <input type="password" name="password" placeholder="Password">
+                    <br>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
